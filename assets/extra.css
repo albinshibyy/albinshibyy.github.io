@@ -24,6 +24,19 @@
     --link-color: rebeccapurple;
     --shad-color: rgba(255, 255, 255, .25);
   }
+  /* CUSTOM TEXT SELECTION COLORS */
+::-moz-selection {
+    /* Code for Firefox */
+    color: red;
+    background: yellow;
+}
+
+::selection {
+    color: red;
+    background: yellow;
+}
+
+/* CUSTOM TEXT SELECTION COLOR END */
 .mail {
     position: absolute;
     width: 36px;
@@ -236,3 +249,17 @@ a {
     -webkit-transform: translateY(-3px);
   transform: translateY(-3px);
 }
+
+
+/* NAVIGATION MENU SPECIAL EDIT FOR LI */
+.menuli {
+    text-decoration: none;
+    color: white;
+    line-height: 4rem;
+}
+
+.menuli:hover {
+    color: grey;
+}
+
+/* NAVIGATION MENU FOR SPECIAL EDIT LI END */

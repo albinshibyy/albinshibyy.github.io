@@ -9,6 +9,14 @@
     <link rel="stylesheet" href="assets/extra.css">
 </head>
 <body>
+    <!-- right click disabling script/////////////////////////////////////////////////////////////////////////// -->
+    <script>
+        document.addEventListener("contextmenu", e => {
+            alert("👾 ahh! it's disabled 🤡 - 🗿");
+            e.preventDefault();
+        });
+    </script>
+
     <div class="container">
         <a href="#popupmenu" class="mail"><img src="assets/img/icons/menu.png" class="mail"></a>
         <img src="assets/img/tk.webp" class="mimg">
@@ -46,7 +54,6 @@
         </div><br>
     </div>
      <!-- Popup navigation menu -->
-
      <div class="popup" id="popupmenu">
         <div class="popup__content">
             <div class="popup__right"> <a href="#!" class="popup__close">×</a>
