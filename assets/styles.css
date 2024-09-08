@@ -49,7 +49,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Acme-Regular', handwriting;
-    overflow:hidden;
 }
 /*  */
 .mimg{
@@ -98,19 +97,21 @@ ul {
     margin: 0;
 }
 /*  */
-li {
+button{
     color: var(--link-color);
     font-size: 15px;
+    font-family: "Acme-Regular";
     margin-bottom: 8px;
     transition: .3s;
-    line-height: 16px;
+    line-height: 5px;
+    background-color: transparent;
+    border-color: transparent;
 }
-li:hover{
+button:hover{
     -webkit-transform: translateX(3px);
   transform: translateX(3px);
     color: blueviolet;
 }
-
 /* Responsive design */
 
 @media only screen and (max-width: 768px) {
@@ -128,13 +129,13 @@ li:hover{
         width: calc(100% - 5px);
     }
     h1 {
-        font-size: 20px;
+        font-size: 25px;
     }
     h2 {
-        font-size: 16px;
+        font-size: 18px;
     }
     p {
-        font-size: 14px;
+        font-size: 15px;
     }
 }
 
