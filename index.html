@@ -1,12 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Albin Shiby | @albinshibyy | Personal main webpage</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Albin Shiby | Personal webpage</title>
     <link rel="shortcut icon" type="image/png" href="assets/icon.png" />
-    <link rel="stylesheet" href="assets/styles.css">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="assets/style.css">
+
     <meta property="og:title" content="Albin Shiby | Personal Page For Public">
     <meta property="og:description"
         content="A technocratic design-minded one who's still learning new stuffs, FOSS Supporter and Cyber Enthusiast with a different vision ">
@@ -26,6 +30,15 @@
     <meta itemprop="name" content="Albin Shiby | Personal Page For Public">
     <meta itemprop="description"
         content="A technocratic design-minded one who's still learning new stuffs, FOSS Supporter and Cyber Enthusiast with a different vision ">
+    <meta itemprop="image" content="https://albinshibyy.github.io/assets/img/og.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://albinshibyy.github.io/">
+    <meta name="twitter:site" content="@albinshibyy">
+    <meta name="twitter:creator" content="@albinshibyy">
+    <meta name="twitter:title" content="Albin Shiby | Personal Page For Public">
+    <meta name="twitter:description"
+        content="A technocratic design-minded one who's still learning new stuffs, FOSS Supporter and Cyber Enthusiast with a different vision ">
+    <meta name="twitter:image:src" content="https://albinshibyy.github.io/assets/img/og.png">
 </head>
 
 <body>
@@ -36,84 +49,82 @@
             e.preventDefault();
         });
     </script>
-
+    <!-- CARD COntainer main/////////////////////////////////////////////////////////////////////////// -->
     <div class="container">
-        <a href="#popupmenu" class="mail"><img src="assets/img/icons/menu.png" class="mail" alt="menu-cion"></a>
-        <!-- <img src="assets/img/cheer.gif" class="mimg" alt="main-img"> -->
-        <h1>hello, i'm albin shiby</h1>
-        <p>cybersecurity researcher, occational technocrat && #foss hacktivist, 
-        i use arch linux btw..!</p>
-        <div class="icons-container">
-            <a href="https://github.com/albinshibyy" target="_blank"><img class="icon"
-                    src="assets/img/icons/github.png"></img></a>
-            <a href="https://instagram.com/albinshibyy" target="_blank"><img class="icon"
-                    src="assets/img/icons/instagram.png"></img></a>
-            <a href="https://gitlab.com/albinshiby" target="_blank"><img class="icon"
-                    src="assets/img/icons/gitlab.png"></img></a>
-            <a href="https://twitter.com/albinshibyy" target="_blank"><img class="icon"
-                    src="assets/img/icons/x.png"></img></a>
-            <a href="https://mastodon.social/@albinshibyy" target="_blank"><img class="icon"
-                    src="assets/img/icons/mast.png"></img></a>
-            <a href="https://www.linkedin.com/in/albin-shiby-45098b285" target="_blank"><img class="icon"
-                    src="assets/img/icons/in.png"></img></a><br>
-            <hr>
-            </hr>
-        </div><br>
+        <div class="card">
+            <div class="header">
+                <a onclick="toggleTheme()" class="logo"><img src="assets/img/icons/dark.png" class="logo"></a>
+                <a href="#popupmenu" class="mail"><img src="assets/img/icons/menu.png" class="mail"></a>
 
-        <h2>featured link's</h2>
-        <ul>
-            <a href="https://albinshibyy.github.io/" target="_blank">
-                <button>>> fully written portfolio webpage -</button>
-            </a>
-            <a href="sf.html" target="_blank">
-                <button>>> enable snowflakes proxy_❄</button>
-            </a>
-
-        </ul>
-        <h2>featured project's</h2>
-        <ul>
-            <a href="https://github.com/albinshibyy/xeybits" target="_blank">
-                <button>>> xeybits | my archlinux setup files -</button>
-            </a>
-            <a href="https://github.com/albinshibyy/card" target="_blank">
-                <button>>> card profile webpage design</button>
-            </a>
-
-        </ul>
-        
-        <h2>latest article's</h2>
-        <ul>
-            <a href="https://substack.com/@albinshiby/p-139164048" target="_blank">
-                <button>>> review about endeavour os -</button>
-            </a>
-            <a href="https://substack.com/@albinshiby" target="_blank">
-                <button>>> review about archcraft linux -</button>
-            </a>
-        </ul>
-
-        <h2>contact option's</h2>
-        <p style="color: gray;">plz use below services tku</p>
-        <ul>
-            <a href="mailto://hello.albin@proton.me">
-                <button>>> hello.albin@proton.me | email</button>
-            </a>
-            <a href="">
-                <button>>> matrix.org id @albinsoff</button>
-            </a>
-        </ul>
-
-        <a class="status" href="assets/albin_shiby_resume.pdf" target="_blank">
-            <div class="status__light">
-                <div class="status__light__ring"></div>
-                <div class="status__light__led"></div>
+                <div class="main">
+                    <a href="">
+                        <div class="image">
+                            <!--
+                        <div class="hover">
+                            <i class="fas fa-camera fa-2x"></i>
+                        </div>
+                        -->
+                        </div>
+                    </a>
+                    <h3 class="name">yo! u know me?</h3>
+                    <h3 class="sub-name">- there is no war in ba sing se -</h3>
+                </div>
             </div>
-            <div class="status__message">View Resume</div>
-        </a>
 
+            <div class="content">
+                <div class="left">
+                    <div class="about-container">
+                        <h3 class="title">somthng mor</h3>
+                        <p class="text">cybersecurity researcher, #foss hacktivist & btw I use archl_👾
+                        </p>
+                    </div>
+                    <div class="icons-container">
+                        <a href="https://github.com/albinshibyy" target="_blank"><img class="icon"
+                                src="assets/img/icons/github.png"></img></a>
+                        <a href="https://instagram.com/albinshibyy" target="_blank"><img class="icon"
+                                src="assets/img/icons/instagram.png"></img></a>
+                        <a href="https://gitlab.com/albinshiby" target="_blank"><img class="icon"
+                                src="assets/img/icons/gitlab.png"></img></a>
+                        <a href="https://twitter.com/albinshibyy" target="_blank"><img class="icon"
+                                src="assets/img/icons/x.png"></img></a>
+                        <a href="https://mastodon.social/@albinshibyy" target="_blank"><img class="icon"
+                                src="assets/img/icons/mast.png"></img></a>
+                        <a href="https://www.linkedin.com/in/albin-shiby-45098b285" target="_blank"><img class="icon"
+                                src="assets/img/icons/in.png"></img></a>
+                    </div><br>
+                    <div class="buttons-wrap">
+                        <div class="follow-wrap">
+                            <a href="#popuphi" class="follow"><strong>let's talk!</strong></a>
+                        </div>
+                        <div class="share-wrap">
+                            <a href="https://albinshiby.substack.com" target="_blank" class="share"><strong>visit
+                                    blog</strong></a>
+                        </div>
+                    </div>
+                </div>
 
-
+                <div class="right">
+                    <div>
+                        <h3 class="number">12+</h3>
+                        <h3 class="number-title">GH Build'S</h3>
+                    </div>
+                    <div>
+                        <h3 class="number">349+</h3>
+                        <h3 class="number-title">Contributions</h3>
+                    </div>
+                    <div>
+                        <h3 class="number">0.1%</h3>
+                        <h3 class="number-title">BitOfEverthng</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <!-- POPUP NAVIGATION CSS MENU START -->
+
+    <!-- POPUP POPUP POPUP/////////////////////////////////////////////////////////////////////////// -->
+
+    <!-- Popup navigation menu -->
+
     <div class="popup" id="popupmenu">
         <div class="popup__content">
             <div class="popup__right"> <a href="#!" class="popup__close">×</a>
@@ -129,9 +140,29 @@
             </div>
         </div>
     </div>
-    <!-- POPUP NAVIGATION CSS MENU END -->
-    <a onclick="toggleTheme()" class="logo"><img src="assets/img/icons/f.gif" class="logo" alt="dark-mode"></a>
-    
+    <!-- Popup navigation menu END -->
+
+    <!-- Lets talk popup page START-->
+    <div class="popup" id="popuphi">
+        <div class="popup__content">
+            <div class="popup__talk"> <a href="#!" class="popup__close">×</a>
+                <div class="popup__top">
+
+                    <figure class="hi__pic"> <a href="" class="hi__pic"> <img class="hi__pic" src="assets/img/tk.webp"
+                                alt=""> </a> </figure>
+                    <p class="popup__text">reply may get delayed btw;</p>
+                    <div class="popup__buttons"> <a href="mailto:hellobylon@skiff.com" class="btna">EMail :
+                            hellobylon@skiff.com</a> </div>
+                </div>
+            </div>
+            <div class="popup__contactinfo">
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Lets talk popup page END-->
+
     <script>
         function toggleTheme() {
             var html = document.querySelector('html');
@@ -143,6 +174,7 @@
         }
 
     </script>
+
 </body>
 
 </html>
