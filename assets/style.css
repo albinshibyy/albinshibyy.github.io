@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Acme', sans-serif;
 }
 
 body{
@@ -15,6 +14,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    font-family: 'Acme', sans-serif;
 }
 
 .card{

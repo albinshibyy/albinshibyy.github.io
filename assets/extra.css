@@ -95,6 +95,7 @@
 
 /* NAVIGATION MENU SPECIAL EDIT FOR LI */
 .menuli {
+    font-family: 'Acme', sans-serif;
     text-decoration: none;
     color: white;
     line-height: 4rem;
@@ -147,7 +148,8 @@
     font-size: 5.5rem;
     font-weight: 100;
     text-decoration: none;
-    transition: all .3s
+    transition: all .3s;
+    font-family: 'Acme', sans-serif;
 }
 
 .popup__close:hover {
@@ -212,7 +214,7 @@
 
 .popup__contact-info a {
     color: #91abaa !important;
-    text-decoration: none
+    text-decoration: none;
 }
 
 /* POPUP SECTION END (FOR NAVIGATION MENU MAINLY)  END*/
@@ -242,7 +244,9 @@
 }
 
 .popup__text {
-    font-size: 14px;
+    font=family: 'Cutive Mono', monospace;
+    font-size: 12px;
+    font-weight:200;
     color:white;
     margin-top:.5rem;
     margin-bottom:.5rem;
@@ -259,7 +263,7 @@ a {
 
 .popup__buttons {
     background-color: #5266d4;
-    /* Green */
+    font-family: 'Acme', sans-serif;
     border-radius: 12px;
     color: #fff;
     padding: 11px 15px;
@@ -278,4 +282,10 @@ a {
     }
 
 }
+@media (min-width:360px) {
+    .popup__buttons {
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
 
+}
