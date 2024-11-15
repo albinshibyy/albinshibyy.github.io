@@ -11,8 +11,8 @@
 [data-theme="dark"] {
     --body-color: #171c28;
     --card-color: #110e1b;
-    --title-color: #434c5e;
-    --text-color: #434c5e;
+    --title-color: #c3c9d2;
+    --text-color: #c3c9d2;
     --number-color: #434c5e;
 }
 /* CUSTOM TEXT SELECTION COLORS */
@@ -288,4 +288,14 @@ a {
         margin-bottom: 1px;
     }
 
+}
+
+.upsha{
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.upsha:hover{
+    -webkit-box-shadow: inset 0 -33px 0 0 #444452;
+    box-shadow: inset 0 -33px 0 0 #444452;
+    color: #fff
 }
