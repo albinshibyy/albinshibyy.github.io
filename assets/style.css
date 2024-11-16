@@ -74,7 +74,7 @@ body{
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(79, 172, 254, .7);
+    background-color: rgba(79, 172, 254, .7); // hover background color
     display: flex;
     justify-content: center;
     align-items: center;
