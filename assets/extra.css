@@ -7,14 +7,16 @@
     --text-color: #666;
     --number-color: #333;
 }
-
-[data-theme="dark"] {
-    --body-color: #171c28;
-    --card-color: #191627;
-    --title-color: #c3c9d2;
-    --text-color: #c3c9d2;
-    --number-color: #434c5e;
+@media (prefers-color-scheme: dark) {
+    :root {
+        --body-color: #11151d;
+        --card-color: #1b202d;
+        --title-color: #c3c9d2;
+        --text-color: #c3c9d2;
+        --number-color: #434c5e;
+    }
 }
+
 /* CUSTOM TEXT SELECTION COLORS */
 ::-moz-selection {
     /* Code for Firefox */
