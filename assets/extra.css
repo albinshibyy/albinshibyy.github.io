@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "Caveat-Regular";
+    src: url("fonts/Caveat-Regular.ttf") format("truetype");
+}
+
+:root {
+    --body-color: #ffffff;
+    --card-color: #f7f7f7;
+    --title-color: #555;
+    --text-color: #2e333d;
+    --number-color: #333;
+}
+.dark-mode {
+    --body-color: #11151d;
+    --card-color: #1b202d;
+    --title-color: #c3c9d2;
+    --text-color: #c3c9d2;
+    --number-color: #434c5e;
+}
+::-moz-selection {
+    /* Code for Firefox */
+    color: red;
+    background: yellow;
+}
+
+::selection {
+    color: red;
+    background: yellow;
+}
+.mail {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    top: 0.4rem;
+    right: 0.4rem;
+    z-index: 3;
+    transition: 0.3s;
+    text-align: right;
+    items-align: right;
+    cursor: pointer;
+    opacity: 0.8;
+    filter: contrast(20%);
+}
+
+.mail:hover {
+    opacity: 1;
+}
+.theme {
+    position: fixed;
+    width: 30px;
+    height: 26px;
+    bottom: 0.4rem;
+    right: 0.4rem;
+    z-index: 3;
+    transition: 0.3s;
+    text-align: right;
+    items-align: right;
+    cursor: pointer;
+    opacity: 0.8;
+    filter: contrast(20%);
+}
+
+.theme:hover {
+    opacity: 1;
+}
+.icons-container {
+    padding: 0.3rem 0;
+    margin-bottom: -1.4rem;
+}
+
+.icon {
+    margin-right: 3.5px;
+    transition: 0.3s;
+    width: 22px;
+    height: 22px;
+    display: inline;
+    filter: contrast(0%);
+}
+.icon:hover {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+}
+.upsha {
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.upsha:hover {
+    -webkit-box-shadow: inset 0 -33px 0 0 #444452;
+    box-shadow: inset 0 -33px 0 0 #444452;
+    color: #fff;
+}
