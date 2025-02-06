@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Albin Shiby | Personal Webpage</title>
         <link rel="stylesheet" href="assets/style.css" />
+        <link rel="stylesheet" href="assets/extra.css" />
         <link rel="shortcut icon" type="image/png" href="assets/img/main.png" />
                 <meta name="description" content="cybersecurity researcher, foss hacktivist
                         && btw i use arch linux | @albinshibyy | personal website" />
@@ -18,10 +19,11 @@
 
         </header> -->
         <a href="#popupmenu" class="mail"><img src="assets/img/icons/menu.png" class="mail"></a>
+        <a id="toggle-mode" class="theme"><img src="assets/img/icons/dark.png" class="theme"></a>
         <main>
 
            <!-- -- <img class="maimg" src="assets/st.png"></img> -->
-            <span class="h1">Yo! I'm Albin Shiby</span>
+            <span class="h1">hello, i'm Albin Shiby</span>
             <span class="h2">cybersecurity researcher</span>
             <div class="icons-container">
                                     <a href="https://github.com/albinshibyy" target="_blank"><img class="icon"
@@ -39,43 +41,46 @@
                                 </div>
             <section>
                 <span class="text"
-                    >Hello 👋, I'm a cybersecurity researcher, foss hacktivist
-                    && btw i use arch_linux</span
+                    >hey 👋, i'm a new-born cybersecurity researcher, foss hacktivist
+                    && i use arch_linux btw</span
                 >
             </section>
             <section>
                 <span class="h3">Other Link's</span><br />
                 <span>
                     ~ projects:
-                    <a href="https://github.com/albinshibyy">github</a
-                    >.<br>
+                    <a href="https://github.com/albinshibyy" class="upsha">github</a
+                    ><br>
                         ~ blogs:
-                        <a href="#">substack</a
+                        <a href="#" class="upsha">substack</a
                         ><br>
                             ~ snowflakes:
-                            <a href="https://snowflake.torproject.org/">help aganist censorship</a
-                            >.<br>
+                            <a href="https://snowflake.torproject.org/" target="_blank"class="upsha">help aganist censorship</a
+                            ><br>
 
                 </span>
             </section>
             <section>
                 <span class="h3">Contact</span><br />
+
                 <span>
                     ~ email:
-                    <a href="mailto:heyalbins@gmail.com">heyalbins@gmail.com</a
-                    >.<br />
+                    <a href="mailto:heyalbins@gmail.com" class="upsha">heyalbins@gmail.com</a
+                    ><br />
                     ~ signal:
-                    <a href="#">albinshiby.01</a
-                    >.<br />
+                    <a href="#" class="upsha">albinshiby.01</a
+                    ><br />
                     ~ matrix id:
-                    <a href="https://matrix.to/#/@heyalbin:matrix.org">heyalbin</a
-                    >.<br />
-
+                    <a href="https://matrix.to/#/@heyalbin:matrix.org" target="_blank" class="upsha">heyalbin</a
+                    ><br />
+                    <span class="text"
+                        >~ protonmail address & encryption keys'll be added soon</span
+                    ><br>
                     </span
                 >
             </section>
             <span class="footer"
-                >© copyright 2024, albin s. this code is open source.</span
+                >Designed & developed by <a href="https://github.com/albinshibyy/page">@albinshibyy</a>. This page is open-source</span
             >
         </main>
         <!-- Popup navigation menu -->
@@ -95,5 +100,14 @@
                 </div>
             </div>
         </div>
+        <script>
+                        const toggleModeButton = document.getElementById('toggle-mode');
+                        const body = document.body;
+
+                        toggleModeButton.addEventListener('click', () => {
+                          body.classList.toggle('dark-mode');
+                        });
+
+                        </script>
     </body>
 </html>
