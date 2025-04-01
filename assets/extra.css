@@ -1,6 +1,22 @@
 @font-face {
-    font-family: "Caveat-Regular";
-    src: url("fonts/Caveat-Regular.ttf") format("truetype");
+    font-family: "WinkySans-Regular";
+    src: url("fonts/WinkySans-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Bytesized-Regular";
+    src: url("fonts/Bytesized-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Acme-Regular";
+    src: url("fonts/Acme-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "SingleDay-Regular";
+    src: url("fonts/SingleDay-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "VT323-Regular";
+    src: url("fonts/VT323-Regular.ttf") format("truetype");
 }
 
 :root {

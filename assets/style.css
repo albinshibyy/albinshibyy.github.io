@@ -5,12 +5,19 @@
 }
 
 body {
-    font-family: "Caveat-Regular", sans-serif;
-    line-height: 1.6;
+    font-family: "VT323-Regular", sans-serif;
+    line-height: 1.4;
+    letter-spacing: -0.1px;
     color: var(--text-color);
     background-color: var(--body-color);
     text-align: left;
     float: left;
+}
+hr {
+    height: 2px;
+    color: red;
+    background-color: #ccc;
+    border: #293335;
 }
 
 /* Header Styles */
@@ -20,13 +27,13 @@ header {
     color: black;
     padding-left: 5em;
     padding-top: 1em;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
 }
 
 .logo {
-    font-weight: bold;
-
+    font-weight: light;
     text-align: left;
+    text-decoration: none;
 }
 /* Main Content Styles */
 
@@ -43,7 +50,7 @@ section {
 }
 .maimg {
     width: 8em;
-    margin-top: -3.2rem;
+    margin-top: -1.6rem;
 }
 
 .h1 {
@@ -51,16 +58,18 @@ section {
     font-weight: bold;
 }
 .h2 {
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: lighter;
     margin-top: -0.5em;
 }
 .h3 {
     font-size: 1.1em;
     font-weight: bold;
-    text-decoration: underline;
 }
 .text {
+    margin-top: 0em;
+    margin-bottom: 0.2em;
+    line-height: 1.1;
 }
 .hype {
     font-weight: bold;
@@ -101,7 +110,7 @@ hr {
         margin-bottom: 2em;
     }
     .maimg {
-        width: 10em;
+        width: 8em;
     }
     main {
         margin-top: 2em;
