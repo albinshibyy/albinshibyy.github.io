@@ -1,0 +1,281 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "AveriaSansLibre-Regular", sans-serif;
+    line-height: 1.4;
+    letter-spacing: -0.1px;
+    color: var(--text-color);
+    background-color: var(--body-color);
+    text-align: left;
+    float: left;
+}
+
+section {
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+}
+
+/* Header Styles */
+header {
+    position: fixed;
+    background-color: transparent;
+    color: black;
+    padding-left: 5em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+.logo {
+    font-weight: light;
+    text-align: left;
+    text-decoration: none;
+}
+
+/* Main Content Styles */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 5em;
+    text-align: left;
+    float: left;
+}
+
+section {
+    margin-top: 1em;
+}
+
+.maimg {
+    width: 10em;
+    margin-bottom: -1em;
+}
+
+.h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.h2 {
+    font-size: 1.1em;
+    font-weight: bold margin-top: -0.5em;
+}
+
+.h3 {
+    font-size: 1.1em;
+    font-weight: light;
+}
+
+.text {
+    margin-top: 0em;
+    margin-bottom: 0.2em;
+    line-height: 1.1;
+}
+
+.hype {
+    font-weight: bold;
+    color: brown;
+}
+
+a {
+    color: brown;
+    text-decoration: none;
+    line-height: 2;
+}
+
+/* Footer Styles */
+
+.footer {
+    color: var(--text-color);
+    font-size: 12px;
+    opacity: 0.8;
+    margin-top: 1em;
+    text-align: left;
+}
+
+/* Responsive Styles */
+
+@media only screen and (max-width: 768px) {
+    main {
+        padding: 3em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header {
+        padding-left: 2em;
+        padding-top: 1em;
+        padding-bottom: 2em;
+        margin-bottom: 2em;
+    }
+
+    .maimg {
+        width: 10em;
+        margin-bottom: -1em;
+    }
+
+    main {
+        margin-top: 2em;
+        padding: 2em;
+    }
+
+    hr {
+        color: black;
+        opacity: 0.2;
+        margin-right: 10em;
+    }
+
+    .footer {}
+}
+
+/* NAVIGATION MENU SPECIAL EDIT FOR LI */
+.menuli {
+    font-family: "AveriaSansLibre-Regular", sans-serif;
+    text-decoration: none;
+    color: white;
+    line-height: 4rem;
+}
+
+.menuli:hover {
+    color: grey;
+}
+
+/* NAVIGATION MENU FOR SPECIAL EDIT LI END */
+
+/* POPUP SECTION (FOR NAVIGATION MENU MAINLY) */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    min-height: 500px;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 3px;
+    text-align: center;
+    z-index: 400;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+
+.popup:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup__close:link,
+.popup__close:visited {
+    position: absolute;
+    top: -6.5rem;
+    right: -0.4rem;
+    display: inline-block;
+    color: white;
+    font-size: 5.5rem;
+    font-weight: 100;
+    text-decoration: none;
+    transition: all 0.3s;
+    font-family: "AveriaSansLibre-Regular", sans-serif;
+}
+
+.popup__close:hover {
+    color: red;
+}
+
+.popup__right {
+    font-size: 1.7rem;
+    width: 75%;
+    max-width: 1000px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    box-shadow: ;
+    border-radius: 3px;
+}
+
+@media (min-width: 768px) {
+    .popup__right {
+        font-size: 2rem;
+    }
+}
+
+.popup__right h2 {
+    margin: 2.5rem 0 1rem;
+}
+
+@media (min-width: 768px) {
+    .popup__right h2 {
+        margin: 1rem 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .popup__top {
+        padding: 1rem;
+    }
+}
+
+.popup__contact-info {
+    background: #293335;
+    color: #91abaa;
+    margin-top: 1rem;
+    padding: 1rem 1rem 1rem;
+}
+
+@media (min-width: 768px) {
+    .popup__contact-info {
+        padding: 1rem 0 1rem;
+        margin-top: 2rem;
+    }
+}
+
+.popup__contact-info ul {
+    padding-bottom: 0;
+}
+
+.popup__contact-info a {
+    color: #91abaa !important;
+    text-decoration: none;
+}
+
+/* POPUP SECTION END (FOR NAVIGATION MENU MAINLY)  END*/
+
+.popup__talk {
+    font-size: 1.7rem;
+    width: 75%;
+    max-width: 1000px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    box-shadow: ;
+    border-radius: 3px;
+}
+
+.hi__pic {
+    width: auto;
+    text-align: center;
+    height: 125px;
+    margin-top: -2.5rem;
+    margin-bottom: -2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.popup__text {
+    font-family: "AveriaSansLibre-Regular", monospace;
+    font-size: 12px;
+    font-weight: 200;
+    color: white;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}

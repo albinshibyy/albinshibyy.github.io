@@ -1,0 +1,169 @@
+@font-face {
+    font-family: "AveriaSansLibre-Regular";
+    src: url("fonts/AveriaSansLibre-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "VT323-Regular";
+    src: url("fonts/VT323-Regular.ttf") format("truetype");
+}
+
+:root {
+    --body-color: #ffffff;
+    --card-color: #f7f7f7;
+    --title-color: #555;
+    --text-color: #2e333d;
+    --number-color: #333;
+}
+
+.dark-mode {
+    --body-color: #11151d;
+    --card-color: #1b202d;
+    --title-color: #c3c9d2;
+    --text-color: #c3c9d2;
+    --number-color: #434c5e;
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: red;
+    background: yellow;
+}
+
+::selection {
+    color: red;
+    background: yellow;
+}
+
+.mail {
+    position: fixed;
+    width: 40px;
+    height: 36px;
+    top: 0.6rem;
+    right: 0.6rem;
+    z-index: 3;
+    transition: 0.3s;
+    text-align: right;
+    items-align: right;
+    cursor: pointer;
+    opacity: 0.8;
+    filter: contrast(20%);
+}
+
+.mail:hover {
+    opacity: 1;
+}
+
+.theme {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    bottom: 0.7rem;
+    right: 0.7rem;
+    z-index: 3;
+    transition: 0.3s;
+    text-align: right;
+    items-align: right;
+    cursor: pointer;
+    opacity: 0.8;
+    filter: contrast(20%);
+}
+
+.theme:hover {
+    opacity: 1;
+}
+
+.icons-container {
+    padding: 0.3rem 0;
+    margin-bottom: -1.4rem;
+}
+
+.icon {
+    margin-right: 3.5px;
+    transition: 0.3s;
+    width: 24px;
+    height: 24px;
+    display: inline;
+    filter: contrast(0%);
+}
+
+.icon:hover {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+}
+
+.upsha {
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.upsha:hover {
+    -webkit-box-shadow: inset 0 -33px 0 0 #444452;
+    box-shadow: inset 0 -33px 0 0 #444452;
+    color: #fff;
+}
+
+.buttons {
+    cursor: default;
+    display: flex;
+    justify-content: var(--flex-alignment);
+    letter-spacing: 0;
+    padding: 0;
+    margin-top: 1em;
+}
+
+.buttons li {
+    max-width: 100%;
+}
+
+.buttons li a {
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+#buttons01 {
+    justify-content: flex-start;
+    gap: 0.75rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+li {
+    text-decoration: none;
+    color: transparent;
+}
+
+#buttons01 li a {
+    display: inline-block;
+    width: auto;
+    height: 2.25rem;
+    line-height: 2.25rem;
+    padding: 0 1.125rem;
+    vertical-align: middle;
+    font-family: "AveriaSansLibre-Regular", sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    border-radius: 1rem;
+    direction: var(--site-language-direction);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition:
+        color 0.25s ease,
+        background-color 0.4s ease,
+        border-color 0.25s ease;
+}
+
+#buttons01 .button {
+    background-color: #808080;
+    border-radius: 12px;
+    color: #ffffff;
+}
+
+#buttons01 .button:hover {
+    background-color: #363636 !important;
+}
